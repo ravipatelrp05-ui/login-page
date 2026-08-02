@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="form-box">
+
+<h2>Create Account</h2>
+
+<form id="signupForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email" required>
+
+<input type="password" id="password" placeholder="Password" required>
+
+<small id="strength"></small>
+
+<label>
+<input type="checkbox" onclick="togglePassword('password')">
+Show Password
+</label>
+
+<button>Create Account</button>
+
+<p>
+Already have an account?
+<a href="index.html">Login</a>
+</p>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
